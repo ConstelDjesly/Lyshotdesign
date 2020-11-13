@@ -1,0 +1,149 @@
+.galerie img{
+         width: 22%;
+        margin: 1%;
+        
+ /*gestion du galerie*/       
+}
+.galerie{
+  width: 100%;
+  display: block;
+  margin: auto;
+  padding: 5px;
+  
+}
+ 
+.galerie img{
+        border-radius: 3px;
+        border: 1px solid #eaebec;
+
+}
+.galerie:hover{
+cursor: pointer;
+line-height: 50px;
+scroll-margin-inline: 40px;
+}
+ /*Historicite de la commune*/  
+ #his{
+         text-align: center;
+         margin: 10px 5px 10px 5px;
+         padding: 5px 5px 5px 5px;
+         font-size: 22px;
+ }
+#his h1,h2,h3,strong, em{
+         color: #293d63;
+ }
+ #his{
+         text-align: left;
+ }
+ #his ul{
+         background-color: #6e5155b4;
+         color:#ffe100;
+         text-align: center;
+         display: inline-block;
+         padding: 0px 0px 0px 0px ;
+         margin: 0px 300px 0px 80px;
+         line-height: 30px;
+ }
+ #his p{
+         white-space: normal;
+         padding: 10px;
+ }
+ #his a{
+         color: #feec10;
+ }
+ #his a:hover{
+         color: aquamarine;
+         line-height: 20px;
+         text-transform: uppercase;
+         background-color: #6e5155;
+ }
+/*aprppos de la commune*/
+#boite{
+        font-size: 22px;
+        text-align: center;
+        line-height: 30px;
+}
+#boite #aero{
+        display: block;
+        position: relative;
+}
+.back{
+        background: url(Image/welcome.jpg) 0 -300px;
+        background-size: cover;
+        width: 100%;
+        min-height: 350px;
+}
+#guape{  background: url(Image/guape.jpg) no-repeat ;
+        background-size: cover;
+        background-position: 0 -400px;
+        width: 200px 300px;
+        min-height: 350px;
+        min-width: 30%;
+ }
+ #church{
+         background: url(Image/church.jpg) no-repeat ;
+         background-position: 0 -300px ;
+         width: 200px 300px;
+         min-height: 350px;
+         min-width: 30%;
+    }
+        .sec{
+                background: url(Image/montagne.jpg) no-repeat;
+                background-size: cover;
+                background-position: 0 -400px;
+                width: 100%;
+                min-height: 500px;
+                min-width: 30%; 
+                border-bottom:10px solid #293d63;
+        }
+        .sec h3{
+                color: azure;
+                background-color: rgb(44, 44, 104);
+        }
+        #aero h3,#his h3{
+                color: #eaebec;
+                background-color: #293d63;
+                text-align: center;
+        }
+        #edu{
+                font-size: 22px;
+                margin: 0px;
+                padding: 0px 20px 0px 20px;
+        }
+        #edu h3{
+                color: #eaebec;
+                background-color: #293d63;
+                text-align: center;    
+        }
+        .link a{
+             text-align: center;  
+             color: rgb(220, 226, 226); 
+             font-size: 22px;
+        }
+        .link a:hover{
+                color: gold;
+                line-height: 10px;
+        }
+        .end { font-size: 20px;
+                padding: 0px 40px 0px 40px;
+                min-height: 70px;
+                padding-top: 30px;
+                border-top: #feec10 3px solid;
+        }
+        .end{
+                background-color: #322744;
+                display:block;
+                width: auto;
+                height: 150px;
+                padding: 0px;
+        }
+        .end li a{
+                list-style: none;
+                display: inline-block;
+        }
+        .sign p{
+                background-color: #ffe100;
+                display: inline-block;
+        }
+
+
